@@ -2,11 +2,16 @@
   "type": "module",
   "name": "tuiter-node-server-app",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.11.1",
+    "npm":  "6.14.8"
+  },
   "description": "Node.js HTTP Web server for the Tuiter application",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
